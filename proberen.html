@@ -73,12 +73,17 @@
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
     }
+
+    @
     .border{
         min-height: 300px;
         border: #fffff0 solid 3px;
         border-radius: 10px;
         margin: 20px;
         padding: 10px;
+        display: flex;
+        flex: 1;
+        flex-direction: row;
     }
     .textcenter{
         text-align: center;
@@ -119,6 +124,12 @@
         width: 15%;
     }
     }
+        @media only screen and(min-width:991px){
+            .een, .twee{
+                display:flex;
+                flex-direction;column;
+                flex:1;
+            }}
     </style>    
     </head>
     <body>
